@@ -1,9 +1,9 @@
-from anfibio import Anfibio
-from ave import Ave
-from reptil import Reptil
-from pez import Pez
-from mamifero import Mamifero
-
+from    .mamifero import Mamifero
+from    .anfibio import Anfibio
+from .animal import Animal
+from .ave import Ave
+from .pez import Pez
+from .reptil import Reptil
 
 class Animal():
     totalAnimales=0
