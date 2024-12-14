@@ -23,9 +23,9 @@ class Animal():
             "Anfibios: " + str(Anfibio.cantidadAnfibios())
     def toString(self):
         if self.zona!=None:
-            return "Mi nombre es " + self.nombre + ", tengo una edad de " +self.edad + ", habito en " + self.habitat+ " y mi genero es " + self._genero + ", la zona en la que me ubico es " + self._zona.getNombre() + " y mi genero es " + self._genero
+            return "Mi nombre es " + self.nombre + ", tengo una edad de " + str(self.edad) + ", habito en " + self.habitat+ " y mi genero es " + self.genero + ", la zona en la que me ubico es " + self.zona.getNombre() + " y mi genero es " + self.genero
         else:
-            return "Mi nombre es " + self.nombre + ", tengo una edad de " + self.edad + ", habito en " + self.habitat + " y mi genero es " + self._genero
+            return "Mi nombre es " + self.nombre + ", tengo una edad de " + self.edad + ", habito en " + self.habitat + " y mi genero es " + self.genero
     def movimiento():
         return "desplazarse"
     def getTotalAnimales(self):
