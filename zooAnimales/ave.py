@@ -16,7 +16,7 @@ class Ave(Animal):
         contador=cls.aguilas+cls.halcones+cls.total
         return contador
     @classmethod
-    def creaHalcon(cls,name,edad,genero):
+    def crearHalcon(cls,name,edad,genero):
         nuevom=Ave(name,edad,"montanas",genero,"cafe glorioso") 
         cls.halcones+=1
         return nuevom

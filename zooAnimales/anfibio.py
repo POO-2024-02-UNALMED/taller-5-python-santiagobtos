@@ -18,7 +18,7 @@ class Anfibio(Animal):
         return nuevo
     @classmethod
     def crearSalamandra(cls,name,edad,genero):
-        nuevo=Anfibio(name,edad,"selva",genero,"negro y amarillo")
+        nuevo=Anfibio(name,edad,"selva",genero,"negro y amarillo",False)
         cls.salamandras+=1
         return nuevo
     @classmethod
