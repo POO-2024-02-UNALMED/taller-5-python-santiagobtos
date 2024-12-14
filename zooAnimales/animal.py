@@ -16,7 +16,8 @@ class Animal():
         from .ave import Ave
         from .pez import Pez
         from .reptil import Reptil
-        "Mamiferos: " + str(Mamifero.cantidadMamiferos()) + "\n" + \
+        
+        return "Mamiferos: " + str(Mamifero.cantidadMamiferos()) + "\n" + \
         "Aves: " + str(Ave.cantidadAves()) + "\n" + \
         "Reptiles: " + str(Reptil.cantidadReptiles()) + "\n" + \
         "Peces: " + str(Pez.cantidadPeces()) + "\n" + \
