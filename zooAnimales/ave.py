@@ -8,7 +8,7 @@ class Ave(Animal):
         super().__init__(nombre, edad, habitat, genero, zona)
         self.colorPlumas=piernas
         Ave.listado.append(self)
-        Ave.total=+1
+        
     def movimiento(self):
         return "volar"
     @classmethod

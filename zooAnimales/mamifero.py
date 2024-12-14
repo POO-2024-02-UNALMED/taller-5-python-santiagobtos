@@ -9,7 +9,7 @@ class Mamifero(Animal):
         self.patas=leg
         self.pelaje=estao
         Mamifero.listado.append(self)
-        Mamifero.total+=1
+        
     @classmethod
     def crearCaballo(cls, nombre , edad , generito):
         nuevom=Mamifero(nombre,edad,"pradera",generito,True,4)

@@ -9,7 +9,7 @@ class Reptil(Animal):
         self.colorEscamas=color
         self.largoCola=large
         self.listado.append(self)
-        Reptil.total+=1
+        
     @classmethod
     def crearSerpiente(cls,name,int,genero):
         nuevo=Reptil(name,int,"humedal",genero,"verde",3)

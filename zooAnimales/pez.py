@@ -9,7 +9,7 @@ class Pez(Animal):
         self.colorEscamas=color
         self.cantidadAletas=caletas
         Pez.listado.append(self)
-        Pez.total+=1
+        
     @classmethod
     def crearBacalao(cls,name,edad,genero):
         nuevo=Pez(name,edad,"oceano",genero,"gris",6)
