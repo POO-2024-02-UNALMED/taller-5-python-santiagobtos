@@ -17,7 +17,7 @@ class Animal():
         from .pez import Pez
         from .reptil import Reptil
         
-        return f"Mamiferos : {Mamifero.cantidadMamiferos()}\nAves : {Ave.cantidadAves()}\nReptiles : {Reptil.cantidadReptiles()}\npeces : {Pez.cantidadPeces()}\nAnfibios : {Anfibio.cantidadAnfibios()}"
+        return f"Mamiferos : {Mamifero.cantidadMamiferos()}\nAves : {Ave.cantidadAves()}\nReptiles : {Reptil.cantidadReptiles()}\nPeces : {Pez.cantidadPeces()}\nAnfibios : {Anfibio.cantidadAnfibios()}"
     def toString(self):
         if self.zona!=None:
             return "Mi nombre es " + str(self.nombre) + ", tengo una edad de " + str(self.edad) + ", habito en " + self.habitat+ " y mi genero es " + self.genero + ", la zona en la que me ubico es " + self.zona.getNombre() + " y mi genero es " + self.genero
