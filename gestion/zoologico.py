@@ -1,8 +1,8 @@
 class Zoologico:
     def __init__(self, nombre, ubicacion):
-        self._nombre=nombre
-        self._ubicaion=ubicacion
-        self._zona=[]
+        self.nombre=nombre
+        self.ubicaion=ubicacion
+        self.zona=[]
     def agregarZonas(self,lugar):
         self._zona.append(lugar)
         lugar.setZoo(self)

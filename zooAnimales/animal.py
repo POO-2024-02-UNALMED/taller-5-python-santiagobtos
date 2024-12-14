@@ -2,11 +2,11 @@
 class Animal():
     totalAnimales=None
     def __init__(self,nombre,edad,habitat,genero,zona=None):
-        self._nombre=nombre
-        self._edad=edad
-        self._habitat=habitat
-        self._genero=genero
-        self._zona=zona
+        self.nombre=nombre
+        self.edad=edad
+        self.habitat=habitat
+        self.genero=genero
+        self.zona=zona
         Animal.totalAnimales+=1
     def totalPorTipo():
         return "Mamíferos: " + str(Mamifero.cantidad_mamiferos()) + "\n" + \
@@ -16,9 +16,9 @@ class Animal():
             "Anfibios: " + str(Anfibio.cantidad_anfibios())
     def __str__(self):
         if self._zona!=None:
-            return "Mi nombre es " + self._nombre + ", tengo una edad de " +self._edad + ", habito en " + self._habitat+ " y mi genero es " + self._genero + ", la zona en la que me ubico es " + self._zona.getNombre() + " y mi genero es " + self._genero
+            return "Mi nombre es " + self.nombre + ", tengo una edad de " +self.edad + ", habito en " + self.habitat+ " y mi genero es " + self._genero + ", la zona en la que me ubico es " + self._zona.getNombre() + " y mi genero es " + self._genero
         else:
-            return "Mi nombre es " + self._nombre + ", tengo una edad de " + self._edad + ", habito en " + self._habitat + " y mi genero es " + self._genero
+            return "Mi nombre es " + self.nombre + ", tengo una edad de " + self.edad + ", habito en " + self.habitat + " y mi genero es " + self._genero
     def movimiento():
         return "desplazarse"
     def getTotalAnimales(self):
