@@ -25,3 +25,8 @@ class Ave(Animal):
         nuevom=Ave(name,edad,"montanas",genero,"blanco y amarillo")   
         cls.aguilas+=1
         return nuevom
+     def getColorPlumas(self):
+        return self.colorPlumas
+
+    def setColorPlumas(self, colorPlumas):
+        self.colorPlumas = colorPlumas
