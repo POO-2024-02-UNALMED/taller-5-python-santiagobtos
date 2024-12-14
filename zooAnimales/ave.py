@@ -30,11 +30,4 @@ class Ave(Animal):
 
     def setColorPlumas(self, colorPlumas):
         self.colorPlumas = colorPlumas
-    def getEdad(self):
-        return self.edad
-    def getHabitat(self):
-        return self.habitat
-    def getNombre(self):
-        return self.nombre
-    def getGenero(self):
-        return self.genero
+   
