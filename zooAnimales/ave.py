@@ -6,7 +6,7 @@ class Ave(Animal):
     total=0
     def __init__(self, nombre, edad, habitat, genero, piernas ,zona=None):
         super().__init__(nombre, edad, habitat, genero, zona)
-        self.colorplumas=piernas
+        self.colorPlumas=piernas
         Ave.listado.append(self)
         Ave.total=+1
     def movimiento(self):
@@ -30,3 +30,11 @@ class Ave(Animal):
 
     def setColorPlumas(self, colorPlumas):
         self.colorPlumas = colorPlumas
+    def getEdad(self):
+        return self.edad
+    def getHabitat(self):
+        return self.habitat
+    def getNombre(self):
+        return self.nombre
+    def getGenero(self):
+        return self.genero
