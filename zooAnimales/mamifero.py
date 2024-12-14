@@ -6,12 +6,12 @@ class Mamifero(Animal):
     listado=[]
     def __init__(self, nombre, edad, habitat, genero, estao, leg , zona=None):
         super().__init__(nombre, edad, habitat, genero, zona)
-        self.piernas=leg
+        self.patas=leg
         self.pelaje=estao
         Mamifero.listado.append(self)
         Mamifero.total+=1
     @classmethod
-    def crearCavallo(cls, nombre , edad , generito):
+    def crearCaballo(cls, nombre , edad , generito):
         nuevom=Mamifero(nombre,edad,"pradera",generito,True,4)
         cls.caballos+=1
         return nuevom
