@@ -18,7 +18,7 @@ class Pez(Animal):
     @classmethod
     def crearSalmon(cls,name,edad,genero):
         nuevo=Pez(name,edad,"oceano",genero,"rojo",6)
-        cls.bacalaos+=1
+        cls.salmones+=1
         return nuevo
     @classmethod
     def cantidadPeces(cls):
