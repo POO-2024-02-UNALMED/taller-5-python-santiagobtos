@@ -8,7 +8,7 @@ class Zoologico:
         lugar.setZoo(self)
     def cantidadTotalAnimales(self):
         contador=0
-        for i in range(len(self._zona)):
+        for i in range(len(self.zona)):
             contador=self.zona[i].cantidadAnimales()+contador
         return contador
     def setNombre(self, nuevo):
