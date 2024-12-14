@@ -22,7 +22,7 @@ class Animal():
             "Peces: " + str(Pez.cantidadPeces()) + "\n" + \
             "Anfibios: " + str(Anfibio.cantidadAnfibios())
     def toString(self):
-        if self._zona!=None:
+        if self.zona!=None:
             return "Mi nombre es " + self.nombre + ", tengo una edad de " +self.edad + ", habito en " + self.habitat+ " y mi genero es " + self._genero + ", la zona en la que me ubico es " + self._zona.getNombre() + " y mi genero es " + self._genero
         else:
             return "Mi nombre es " + self.nombre + ", tengo una edad de " + self.edad + ", habito en " + self.habitat + " y mi genero es " + self._genero
